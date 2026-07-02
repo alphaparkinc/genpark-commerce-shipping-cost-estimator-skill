@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import ShippingEstimatorClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = ShippingEstimatorClient()
+    print(c.estimate_shipping(5.4, "90210", "10001"))
 if __name__ == '__main__':
     main()

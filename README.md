@@ -1,3 +1,3 @@
-﻿# commerce-shipping-cost-estimator-skill
+# commerce-shipping-cost-estimator-skill
 
-Ready to use SDK library for commerce-shipping-cost-estimator-skill.
+Production-ready agent skill for Shipping cost estimation.
