@@ -1,17 +1,17 @@
-﻿{
-    "version":  "1.0.0",
-    "name":  "commerce-shipping-cost-estimator-skill",
-    "outputs":  {
-                    "result_val":  {
-                                       "type":  "string"
-                                   }
-                },
-    "description":  "Commerce postal carrier shipping rate dynamic estimator skill.",
-    "inputs":  {
-                   "input_val":  {
-                                     "type":  "string"
-                                 }
-               },
-    "author":  "alphaparkinc",
-    "prompt":  "Coordinate commerce-shipping-cost-estimator-skill operations using the input configurations."
+{
+  "version": "1.0.0",
+  "name": "commerce-shipping-cost-estimator-skill",
+  "outputs": {
+    "result_val": {
+      "type": "string"
+    }
+  },
+  "description": "GenPark AI Agent Skill - Commerce postal carrier shipping rate dynamic estimator skill.",
+  "inputs": {
+    "input_val": {
+      "type": "string"
+    }
+  },
+  "author": "genpark",
+  "prompt": "Coordinate commerce-shipping-cost-estimator-skill operations using the input configurations."
 }
