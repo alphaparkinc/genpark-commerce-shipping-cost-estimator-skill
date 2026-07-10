@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "commerce-shipping-cost-estimator-skill",
+  "name": "genpark-commerce-shipping-cost-estimator-skill",
   "outputs": {
     "result_val": {
       "type": "string"
